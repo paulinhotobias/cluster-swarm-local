@@ -1,0 +1,1 @@
+sudo docker service create --name my-web -p 80:80 --replicas=6 nginx
